@@ -1,17 +1,57 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!-- This is a comment. The browser ignores this. -->
+<!DOCTYPE html> <!-- This tells the browser what kind of file we are writing. -->
+<html lang="en"> <!-- HTML opening tag. -->
 
+<!-- Important data regarding our file thats does not need to be displayed. -->
 <head> 
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title> Agona's Portfolio </title>
+ <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
-<!--This is where most of my code will live-->
+<!--This is where most of my code will live and what people will see when they visit my page.-->
 <body> 
- <h1> Hello World</h1>
- <p> Testing for ITAG</p>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#projects">Projects</a> </li>
+                <li> <a href="#skills">Skills</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1> About Me </h1>
+            <img src="me.jpeg" alt="This is a picture of me." width="300" height="#"/>
+            <p> Hi! My name is Agona and I am an architecture student at NYIT! </p>
+        </section>
+
+        <section id="projects">
+            <h1> My Projects </h1>
+            <ul>
+                <li> Project One </li>
+                <li> Project Two </li>
+                <li> Project Three </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h1> Skills </h1>
+        </section>
+
+        <section id="contact">
+            <h1> Contact </h1>
+            <p> Feel free to reach out to me here! </p>
+            <a href="mailto:agona219@gmail.com">Email me!</a>
+        </section>
+
+    </main>
 </body>
 
 
-</html> 
+</html> <!-- HTML closing tag. -->

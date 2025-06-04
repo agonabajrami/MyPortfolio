@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+a:hover{
+    font-size: 25px;
+}
+
+#about{
+    background-color:cadetblue;
+}
+
+#projects{
+    background-color:cornsilk;
+}
+
+#skills{
+    background-color:rgb(202, 141, 103);
+}
+
+#contact{
+    background-color:crimson;
+}
+
+ul{
+ list-style: none;
+ text-align: center;
+}
+
+ul li{
+    display: inline;
+}
+
+li{
+    padding-right: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
