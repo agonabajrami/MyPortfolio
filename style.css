@@ -40,6 +40,13 @@ main{
     padding: 0px;
 }
 
+.intro{
+    padding: 30px;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 16px;
+}
+
 #about{
     background-color: #5B7876;
     padding-left: 25px;
@@ -49,10 +56,12 @@ main{
     margin: 0px;
 }
 
-p2{
-    padding-left: 25px;
-    padding-right: 25px;
-    position: absolute;
+p3{
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   text-align: center;
 }
 
 #projects{
@@ -87,6 +96,10 @@ p2{
     margin: 0px;
 }
 
+p{
+    color: #dec9bb;
+}
+
 nav{
     background-color: #292929;
     padding-top: 2px;
@@ -116,4 +129,37 @@ ul li a{
 
 body{
     margin: 0;
+}
+
+.container {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: space-between;
+        text-align: center;
+}
+
+
+@media (min-width: 576px){
+    #projects{
+        background-color: #292929;
+    }
+}
+
+@media (min-width: 768px){
+    #projects{
+        background-color: #dec9bb;
+    }
+}
+
+@media (min-width: 1200px){
+    #projects{
+        background-color: #dec9bb;
+    }
+}
+
+@media (min-width: 1400px){
+    #projects{
+        background-color: #dec9bb;
+    }
 }
