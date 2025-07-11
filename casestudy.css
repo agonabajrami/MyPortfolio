@@ -1,0 +1,11 @@
+.homeGallery {
+  display: flex; 
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.column {
+  flex: 33%;
+  padding: 1px;
+}

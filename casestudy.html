@@ -16,45 +16,136 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
- <link href="style.css" rel="stylesheet" type="text/css"/>
+ <link href="casestudy.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Case Study</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
         <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-                    <li class="nav-item dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
-                    </button>
+
+            <li class="nav-item dropdown">
+                <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                Table of Contents
+                </button>
+
                     <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Project Overview</a></li>
-                    <li><a class="dropdown-item" href="#">Needs Assessment</a></li>
-                    <li><a class="dropdown-item" href="#">Materials List</a></li>
-                    <li><a class="dropdown-item" href="#">2D/3D Design</a></li>
-                    <li><a class="dropdown-item" href="#">Project Analysis</a></li>
-                    <li><a class="dropdown-item" href="#">Visuals</a></li>
-                    <li><a class="dropdown-item" href="#">Challenges & Solutions</a></li>
-                    <li><a class="dropdown-item" href="#">Results & Conclusion</a></li>
+                    <li><a class="dropdown-item" href="#projectOverview">Project Overview</a></li>
+                    <li><a class="dropdown-item" href="#needsAssessment">Needs Assessment</a></li>
+                    <li><a class="dropdown-item" href="#materialsList">Materials List</a></li>
+                    <li><a class="dropdown-item" href="#design">2D/3D Design</a></li>
+                    <li><a class="dropdown-item" href="#projectAnalysis">Project Analysis</a></li>
+                    <li><a class="dropdown-item" href="#visuals">Visuals</a></li>
+                    <li><a class="dropdown-item" href="#challengesSolutions">Challenges & Solutions</a></li>
+                    <li><a class="dropdown-item" href="#resultsConclusion">Results & Conclusion</a></li>
                     </ul>
-                    </li>
-            </div>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About Me</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
         </div>
+
     </div>
     </nav>
 </header>
 
 <body>
+
+    <section id="home">
+        <h1> Home </h1>
+
+        <div class="homeGallery">
+            <div class="column">
+                <div class="card" style="width: 22rem;">
+                    <img src="Hydroponics.jpeg" class="card-img-top" alt="..." height=450px>
+
+                <div class="card-body">
+                    <h2 class="card-title">Hydroponics</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card" style="width: 22rem;">
+                    <img src="Food Security.jpeg" class="card-img-top" alt="..." height=450px>
+
+                <div class="card-body">
+                    <h2 class="card-title">Food Security</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card" style="width: 22rem;">
+                    <img src="Staten Island.jpeg" class="card-img-top" alt="..." height=450px>
+
+                <div class="card-body">
+                    <h2 class="card-title">Staten Island, NY</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projectOverview">
+        <h1> Project Overview </h1>
+    </section>
+
+    <section id="needsAssessment">
+        <h1> Needs Assessment </h1>
+    </section>
+
+    <section id="materialsList">
+        <h1> Materials List </h1>
+    </section>
+
+    <section id="design">
+        <h1> 2D/3D Design </h1>
+    </section>
+
+    <section id="projectAnalysis">
+        <h1> Project Analysis </h1>
+    </section>
+
+    <section id="visuals">
+        <h1> Visuals </h1>
+    </section>
+
+    <section id="challengesSolutions">
+        <h1> Challenges & Solutions </h1>
+    </section>
+
+    <section id="resultsConclusion">
+        <h1> Results & Conclusion </h1>
+    </section>
+
+    <section id="aboutMe">
+        <h1> About Me </h1>
+    </section>
+
+    <section id="contact">
+        <h1> Contact </h1>
+    </section>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
