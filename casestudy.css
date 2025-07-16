@@ -55,15 +55,17 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #d5d5d5;
   text-align: left;
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+td {
+    background-color: #d5d5d5;
 }
-</style>
-</head>
-<body>
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
 
