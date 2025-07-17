@@ -1,23 +1,22 @@
-html{
+html {
     height: 100%;
     width: 100%;
 }
 
-a:hover{
+a:hover {
     font-size: 25px;
 }
 
-#header{
-    background-image: url(https://images.orientbell.com/media/catalog/product/r/u/rustica_decor_cloudy_moroccan_art.jpg);
-    background-color: #292929;
-    margin: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+header {
+    background-color: #a2a6a9;
+    position: sticky;
+    top: 0;
+    z-index:1000;
 }
 
+
+
 h1 {
-    color: #292929;
     padding-bottom: 10px;
     padding-left: 25px;
     font-family: "Instrument Serif", serif;
@@ -27,7 +26,7 @@ h1 {
     letter-spacing: 3px;
 }
 
-h2{
+h2 {
     font-family: "Instrument Serif", serif;
     font-weight: 400px;
     font-style: normal;
@@ -35,25 +34,50 @@ h2{
     letter-spacing: 1px;
 }
 
-main{
+main {
     margin: 0px;
     padding: 0px;
 }
 
-.intro{
-    padding: 30px;
-    background-color: #f7f7f7;
+.intro,.introText {
+    padding-top: 18px;
     text-align: center;
     font-size: 16px;
+    background-color: #ffffff;
 }
 
 #about{
-    background-color: #5B7876;
-    padding-left: 25px;
     padding-bottom: 25px;
-    padding-top: 10px;
-    padding-right: 25px;
-    margin: 0px;
+    padding-top: 25px;
+} 
+
+.aboutCard {
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.aboutCard .row {
+    height: 100%;
+}
+
+.aboutCard .col-md-4 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutBody {
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto; /* allows scrolling if text overflows */
+}
+
+.col-md-8 {
+    background-color: #f3f3f3;
+    
 }
 
 p3{
@@ -94,16 +118,6 @@ p3{
     padding-bottom: 25px;
     padding-top: 10px;
     margin: 0px;
-}
-
-p{
-    color: #dec9bb;
-}
-
-nav{
-    background-color: #292929;
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
 
 ul{
