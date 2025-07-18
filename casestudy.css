@@ -9,10 +9,6 @@ h2 {
     font-size: 25px;
 }
 
-h3 {
-    font-size: ;
-}
-
 h4 {
     font-size: 25px;
 }
@@ -226,7 +222,6 @@ header {
   margin: 20px 0;
 }
 
-/* Each block styled as a card */
 #Case2 .twoProjectOverview,
 #Case2 .twoNeedsAssessment,
 #Case2 .twoMaterialsList,
@@ -252,3 +247,75 @@ header {
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
 }
 
+#Case3 {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#Case3 h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #1319de; /* Deep green for urban farming theme */
+}
+
+#Case3 h3 {
+  font-size: 1.6rem;
+  color: #1319de;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1319de;
+  padding-bottom: 5px;
+}
+
+#Case3 p {
+  margin-bottom: 20px;
+}
+
+#Case3 ul {
+  margin: 0 0 20px 20px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+#Case3 .threeProjectOverview,
+#Case3 .brooklynGrange,
+#Case3 .farmOne,
+#Case3 .threeProjectAnalysis,
+#Case3 .threeConclusion {
+  background: #fafafa;
+  border-left: 6px solid #1319de;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  transition: box-shadow 0.3s ease;
+}
+
+#Case3 .threeProjectOverview:hover,
+#Case3 .brooklynGrange:hover,
+#Case3 .farmOne:hover,
+#Case3 .threeProjectAnalysis:hover,
+#Case3 .threeConclusion:hover {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background-color: #f3f3f3;
+}
+
+.contactHeading {
+    text-align: center;
+    padding-top: 20x;
+    margin-top: 40px;
+}
+
+.contactIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    column-gap: 85px;
+}
