@@ -40,11 +40,11 @@
         </section>
     </header> -->
 
-<header>
+<header id="top">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#intro">A. Bajrami</a>
+    <a class="navbar-brand" href="#top">A. Bajrami</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -53,7 +53,7 @@
         <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#projects">Projects</a>
         <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="casestudy.html">Case Study</a>
+        <a class="nav-link" href="casestudy.html">Case Studies</a>
         <a class="nav-link" href="#contact">Contact</a>
         <a class="nav-link" href="plantidentifier.html">Plant Identifier</a>
         </div>
@@ -61,16 +61,15 @@
     </div>
     </nav>
 
-    <section id="intro">
-    <div class="introText">
-        <p3> Welcome to my portfolio! Here I'll be showcasing some of my academic, professional, and extra curricular ventures. Feel free to explore my page and get to know my work! </p3>
-    </div>
-    </section>
-
 </header>
 
     <main>
 
+        <section id="intro"> 
+            <div class="introText">
+                <p3> Welcome to my portfolio! Here I'll be showcasing some of my academic, professional, and extra curricular ventures. Feel free to explore my page and get to know my work! </p3>
+            </div>
+        </section>
 
         <section id="about">
             <!-- <h2> About Me </h2>
@@ -115,79 +114,113 @@
                 <li> <img src="community center example.jpg" alt="This is a picture of a community center example." width="#" height="200"/> </li>
                 <li> <img src="landscape example.jpg" alt="This is a picture of a landscape example." width="#" height="200"/> </li>
             </ul> -->
-            <div class="container">
-                <div class="box">
-                Housing
+
+            <div class="projectsGallery">
+            <div class="project-column">
+                <div class="project-card" style="width: 22rem;">
+
+                    <div class="project-card-img">
+                    <img src="Hydroponics.jpeg" class="card-img-top" alt="..." height=450px>
+                    </div>
+
+                <div class="project-card-body">
+                    <h2 class="project-card-title">Architecture</h2>
+                    <p class="project-card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                 </div>
-                <div class="box">
-                Commercial and Rec
-                </div>
-                <div class="box">
-                Landscape
-                </div>
-            </div>
-             <div class="container">
-                <div class="box">
-                <img src="housing example.jpg" alt="This is a picture of a housing example." width="#" height="200"/> </li>
-                </div>
-                <div class="box">
-                <img src="community center example.jpg" alt="This is a picture of a community center example." width="#" height="200"/>
-                </div>
-                <div class="box">
-                <img src="landscape example.jpg" alt="This is a picture of a landscape example." width="#" height="200"/> </li>
                 </div>
             </div>
+
+            <div class="project-column">
+                <div class="project-card" style="width: 22rem;">
+
+                    <div class="project-card-img">
+                    <img src="Food Security.jpeg" class="card-img-top" alt="..." height=450px>
+                    </div>
+
+                <div class="project-card-body">
+                    <h2 class="project-card-title">Agriculture</h2>
+                    <p class="project-card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="project-column">
+                <div class="project-card" style="width: 22rem;">
+
+                    <div class="project-card-img">
+                    <img src="Staten Island.jpeg" class="card-img-top" alt="..." height=450px>
+                    </div>
+
+                <div class="project-card-body">
+                    <h2 class="project-card-title">Coding</h2>
+                    <p class="project-card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                </div>
+                </div>
+            </div>
+
+            </div>
+            
         </section>
 
         <section id="skills">
-            <h2> Skills </h2>
-            <p> Computer Programs: Rhino 3D, AutoCAD, SketchUp, Adobe Suite, Micrososft 365 </p>
+            <h2 class="skillsHeading"> Skills </h2>
+            <!-- <p> Computer Programs: Rhino 3D, AutoCAD, SketchUp, Adobe Suite, Micrososft 365 </p>
             <p> Interdisciplinary Studies: Architecture, Business/Marketing, Literature/Culture </p>
-            <p> Interpersonal Advantages: Avid participant in volunteer and community oriented programs. Eagerness to learn and work with others. </p>
+            <p> Interpersonal Advantages: Avid participant in volunteer and community oriented programs. Eagerness to learn and work with others. </p> -->
+             <div class="skills-container">
+                <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <div class="skill-title">Architecture and Design</div>
+                <div class="skill-description">Rhino 3D, AutoCAD, Risa3D, SketchUp, 3D Printing, Laser Cutting/CNC Modeling, Adobe Suite, Micrososft 365</div>
+                <div class="skill-image"><img src="arch.jpg" alt="This is a picture of an architecture example."/></div>
+                </div>
+
+                <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                <div class="skill-title">Coding and Computers</div>
+                <div class="skill-description">GitHub, VS Code, API Building, HTML, CSS, & JavaScript</div>
+                <div class="skill-image"><img src="api ss.PNG" alt="This is a picture of an API example."/></div>
+                </div>
+
+                <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <div class="skill-title">Construction and Agriculture</div>
+                <div class="skill-description">Regulation and Code Compliance, OSHA-10 Certificate, Wood Work, Hydroponic Systems, Farming</div>
+                <div class="skill-image"><img src="Hydroponics.jpeg" alt="This is a picture of a hydroponics example."/></div>
+                </div>
+
+                <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                <div class="skill-title">Interdisciplinary Concentrations</div>
+                <div class="skill-description">Business, Literature & Culture</div>
+                <div class="skill-image"><img src="art.jpg" alt="This is a picture of an art example."/></div>
+                </div>
+
+            </div>
         </section>
 
         <section id="contact">
-            <!-- <h2> Contact </h2>
-            <p> Feel free to reach out to me here! </p>
-            <a href="mailto:agona219@gmail.com">Email me!</a> -->
-            <h2> Contact </h2>
-                 <p> Feel free to reach out here! </p>
+            <h2 class="contactHeading">Contact Me!</h2>
 
-                        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Email
-                </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong> <a href="mailto:agona219@gmail.com">agona219@gmail.com</a></strong>
-                </div>
-                </div>
+            <div class="contactIcons">
+                
+                <a href="mailto:agona219@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" 
+                        alt="Email Me" height="75" style="border-radius: 8px;">
+                </a>
+
+                <a href="https://www.linkedin.com/in/agona-bajrami-5573a6260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
+                        alt="LinkedIn Profile" height="75" style="border-radius: 8px;">
+                </a>
+
+                <a href="http://github.com/agonabajrami" target="_blank" rel="noopener noreferrer">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" 
+                     alt="GitHub Profile" height="75" style="border-radius: 8px;">
+            </a>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    LinkedIn
-                </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong> <a href="https://www.linkedin.com/in/agona-bajrami-5573a6260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Agona Bajrami Profile</a> </strong> 
-                </div>
-                </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Freedom By Design
-                </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>fbdaiasnyit@hotmail.com</strong> 
-                </div>
-                </div>
+
         </section>
 
     </main>
