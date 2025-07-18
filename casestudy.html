@@ -71,40 +71,48 @@
         <div class="cover">
             <div class="overlay"></div>
             <h1 class="title">Welcome to My Case Studies!</h1>
+            <h3 class="sub-title">Below are three of my most recent explorations!</h1>
         </div>
 
     </section>
 
-    <section id="projectOverview">
-        <h1> Project Overview </h1>
+    <section id="cases">
 
         <div class="projectsGallery">
             <div class="project-column">
+                <a href="#Case1" style="text-decoration: none; color: inherit;">
                 <div class="project-card" style="width: 22rem;">
 
                     <div class="project-card-img">
-                    <img src="Hydroponics.jpeg" class="card-img-top" alt="..." height=450px>
+                    <img src="api ss.PNG" class="card-img-top" alt="..." height=450px>
                     </div>
 
                 <div class="project-card-body">
-                    <h2 class="project-card-title">Architecture</h2>
-                    <p class="project-card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <h2 class="project-card-title">Case Study #1</h2>
+                    <p class="project-card-text">Plant Health API</p>
+                    <p class="project-card-text">Project Duration: 07/10/2025-07/17/2025</p>
+                    <p class="project-card-text">Project Manager: Agona Bajrami</p>
                 </div>
                 </div>
             </div>
+            </a>
 
             <div class="project-column">
+                <a href="#Case2" style="text-decoration: none; color: inherit;">
                 <div class="project-card" style="width: 22rem;">
 
                     <div class="project-card-img">
-                    <img src="Food Security.jpeg" class="card-img-top" alt="..." height=450px>
+                    <img src="drawings [Converted].jpg" class="card-img-top" alt="..." height=450px>
                     </div>
 
                 <div class="project-card-body">
-                    <h2 class="project-card-title">Agriculture</h2>
-                    <p class="project-card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <h2 class="project-card-title">Case Study #2</h2>
+                    <p class="project-card-text">At-Home Hydroponics</p>
+                    <p class="project-card-text">Project Duration: 06/10/2025-07/17/2025</p>
+                    <p class="project-card-text">Project Manager: Agona Bajrami</p>
                 </div>
                 </div>
+                </a>
             </div>
 
             <div class="project-column">
@@ -115,8 +123,10 @@
                     </div>
 
                 <div class="project-card-body">
-                    <h2 class="project-card-title">Coding</h2>
-                    <p class="project-card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <h2 class="project-card-title">Case Study #3</h2>
+                    <p class="project-card-text">Urban Farming Models</p>
+                    <p class="project-card-text">Project Duration: 06/10/2025-07/17/2025</p>
+                    <p class="project-card-text">Project Manager: Agona Bajrami</p>
                 </div>
                 </div>
             </div>
@@ -125,10 +135,166 @@
 
     </section>
 
-    <section id="needsAssessment">
-        <h1> Needs Assessment </h1>
+    <section id="Case1">
+        <h1>Plant Health API</h1>
 
-        <div class="needsItems">
+        <div class="oneProjectOverview">
+            <h3>Project Overview</h3>
+            <p>The Plant Health API is an early-stage digital tool designed to help gardeners and farmers 
+                monitor, diagnose, and improve plant health through data-driven insights. The API aims to 
+                connect data from multiple sources, including environmental sensors, user input, and image recognition 
+                models to provide actionable recommendations for common plant health issues such as pests, diseases, 
+                nutrient deficiencies, or environmental stress. Users can submit real-time data such as soil moisture, 
+                temperature, humidity, or leaf images, and the API will process this input and return information on the plant, 
+                plant disease, and potential treatments.</p>
+        </div>
+
+        <div class="oneNeedsAssessment">
+        <h3> Needs Assessment and Materials List</h3>
+        <p>There are a few skills that can help build an API tool. For this project, refer to the skills below. <p>
+            <ul>HTML, CSS, and Javascript Languages</ul>
+            <ul>API Key - I obtained mine with Plant.id by signing up with an email for free!</ul>
+            <ul>VS Code/Working Device: You will need somewhere to store your code and run your results.</ul>
+            <ul>Working Wi-Fi and internet. The API will not work unless connected.</ul>
+            <ul>Camera and photo upload so that the plant health can be processed.</ul>
+        </div>
+
+        <div class="oneProjectAnalysis">
+        <h3>Project Analysis</h3>
+            <p>By integrating sensor data, user inputs, and image recognition, the API can help users identify plant health 
+                problems earlier and with more accuracy than traditional observation alone. This centralized system empowers 
+                home gardeners, small farmers, and even educators to monitor plant health dynamically, using accessible 
+                digital tools instead of relying solely on expert field visits.</p> 
+        </div>
+
+        <div class="oneChallengesSolutions">
+        <h3>Challenges and Solutions</h3>
+            <ul>A primary challenge for the Plant Health API is achieving reliable accuracy with diverse plant species and 
+                conditions. Factors such as inconsistent photo quality, varied lighting, or incomplete sensor data can lead 
+                to misdiagnoses. Building a robust image recognition model requires training on thousands of plant images 
+                across different growth stages, climates, and disease types, which can be resource-intensive and time-consuming. 
+                Additionally, integrating third-party hardware like soil sensors or smart garden devices adds complexity, 
+                requiring clear data standards and secure connections to ensure user privacy and consistent performance.</ul>
+            <ul>To address these challenges, the development team plans to start with a focused library of high-quality, 
+                verified plant images for common species and problems, expanding gradually through community contributions 
+                and partnerships with agricultural research groups. Basic rule-based checks can provide backup guidance when 
+                image confidence is low, ensuring users always get helpful feedback. For hardware integration, the API will 
+                use secure, standardized endpoints and clear documentation to make it easy for third-party devices to share 
+                reliable data. In the long term, combining user feedback with machine learning will refine the API’s accuracy, 
+                making it a powerful, practical tool for sustainable plant health management at any scale.</ul>
+        </div>
+
+        <div class="oneResultsConclusion">
+        <h3>Results and Conclusion</h3>
+            <ul>The early pilot of the Plant Health API showed promising results in helping users detect and address common plant health 
+                issues more quickly and confidently. During initial testing, the API successfully identified common leaf diseases such 
+                as powdery mildew and early blight. The API's recommendations were practical and easy to follow, making the tool helpful
+                as a new farmer.</ul>
+            <ul>The pilot results highlight the value of combining technology with accessible plant care. By integrating simple environmental 
+                sensors, user-submitted photos, and smart diagnostics into a single tool, the Plant Health API makes expert-level guidance 
+                available to anyone with a phone or basic monitoring device. As development continues, expanding the plant database, refining 
+                the image recognition model, and improving third-party device compatibility will help the API serve an even wider range of crops 
+                and growing conditions. Ultimately, a reliable Plant Health API could play a small but important role in promoting local food 
+                security, healthier gardens, and more resilient small-scale agriculture by giving people the knowledge they need to detect problems 
+                early and manage plant health sustainably.</ul>
+        </div>
+    
+    </section>
+
+    <section id="Case2">
+        <h1>At-Home Hydroponics</h1>
+
+        <div class="twoProjectOverview">
+            <h3>Project Overview</h3>
+            <p>A Deep Water Culture (DWC) system is a simple yet highly effective hydroponic method that suspends plant roots directly in a nutrient-rich, 
+                oxygenated water solution. Unlike traditional soil gardening, DWC allows plants to absorb nutrients and oxygen more efficiently, leading 
+                to faster growth and higher yields — making it an excellent choice for growing heavy-feeding fruiting crops like tomatoes and cucumbers at 
+                home. With just a few key pieces of equipment and basic maintenance, an at-home DWC system can produce fresh, vine-ripened tomatoes and 
+                crisp cucumbers year-round, even in limited space.</p>
+        </div>
+
+        <div class="twoNeedsAssessment">
+        <h3> Needs Assessment </h3>
+        <p>There are a number of considerations for growing tomatoes and cucumbers using an at-home DWC system.</p>
+            <ul>Space & Location: You’ll need an area with enough room for the reservoir, plant canopy, and trellising. Ensure access to power for pumps 
+                and grow lights.</ul>
+            <ul>Lighting: Make sure plants get at least 12-16 hours of direct light daily. This may vary across crops.</ul>
+            <ul>Structural Support: Tomatoes and cucumbers are vining crops. You’ll need sturdy trellises to support the 
+                plants as they grow vertically.</ul>
+            <ul>Water & Nutrient Management: A reliable water source for topping off the reservoir. A way to monitor and maintain water temperature, 
+                pH, and nutrient strength.Easy access to drain and clean the system.</ul>
+            <ul>Air & Oxygenation: A quality air pump with stones sized for your reservoir.</ul>
+            <ul>Time & Maintenance: Low-maintenance day-to-day but do require weekly nutrient checks, water level top-offs, regular monitoring 
+                for algae, root health, or pests.</ul>
+        </div>
+
+        <div class="twoMaterialsList">
+        <h3> Materials List </h3>
+            <ul>Reservoir container: A large opaque storage tote or plastic bin. Must carry a minimum of the total gallons of all buckets combined.</ul>
+            <ul>Buckets: 5 Gallons each for tomatoes and cucumbers. May vary on crop species. <ul>
+            <ul>Growing medium: Expanded clay pebbles, rockwool cubes, or hydroton to support the plants in the buckets.</ul>
+            <ul>Air pump: Sized for the volume of water. Many DWC systems will come with an air pump unless specified.</ul>
+            <ul>Air stones: 1–2 medium or large air stones for good oxygen dispersion.</ul>
+            <ul>Airline tubing & check valves: To connect pump to air stones.</ul>
+            <ul>Hydroponic nutrients: Balanced nutrient solution suitable for fruiting plants.</ul>
+            <ul>pH test kit or digital meter: To keep nutrient solution pH in the ideal range (5.5–6.5).</ul>
+            <ul>Lighting: Full-spectrum LED grow light(s).</ul>
+        </div>
+
+        <div class="twoDesign">
+        <h3>2D/3D Design</h3>
+        <img class="fullscreen-image" src="drawings [Converted].jpg" alt="Full Screen Example">
+        </div>
+
+        <div class="twoProjectAnalysis">
+        <h3>Project Analysis</h3>
+            <p>Placed in a backyard, this system uses a sturdy, opaque reservoir fitted with buckets 
+                holding the plants in a floating or fixed lid. An electric air pump and air stones 
+                continuously aerate the nutrient solution, supplying oxygen to the submerged root systems. 
+                A simple trellis structure or vertical stakes supports the vining tomatoes and cucumbers as 
+                they grow upward, maximizing vertical space and sunlight exposure. Operating a DWC outdoors 
+                combines the advantages of abundant natural sunlight with the efficiency and water conservation 
+                benefits of hydroponics.</p> 
+            <p>Compared to conventional soil gardening, this system reduces weeding, 
+                minimizes pest exposure in the soil, and uses nutrients more precisely. With basic regular maintenance, 
+                monitoring water levels, nutrient strength, and pH, the system can produce multiple harvests of fresh, 
+                healthy tomatoes and cucumbers right in the backyard.</p>
+        </div>
+
+        <div class="twoChallengesSolutions">
+        <h3>Challenges and Solutions</h3>
+            <ul>Challenge 1: Outdoor Temperature Fluctuations: Tomatoes and cucumbers thrive in warm conditions, but 
+                extreme heat can raise the reservoir’s water temperature, lowering oxygen levels and stressing the 
+                plants. Cold nights can have the opposite effect, slowing root activity.Place the reservoir in a shaded 
+                spot during hot months or insulate it with reflective material to reduce heat gain. In colder weather, use 
+                a small heater to maintain a stable water temperature. Monitoring with a simple water thermometer helps catch extremes early.</ul>
+            <ul>Challenge 2: Pests & Outdoor Animals: Even though DWC avoids soil pests, backyard systems can attract insects, 
+                birds, or small animals curious about the plants or nutrient water. Use netting or fencing to protect the plants 
+                from larger animals. Inspect regularly for insects and treat infestations with gentle, non-toxic solutions suitable 
+                for edible crops. Keep the area clean and free of debris to discourage pests.</ul>
+        </div>
+
+        <div class="twoResultsConclusion">
+        <h3>Results and Conclusion</h3>
+            <ul>After building and operating the backyard Deep Water Culture (DWC) system for a full season, if there are strong 
+                yields from both tomatoes and cucumbers, on average, each tomato plant should produce 10–15 pounds of tomatoes 
+                over the season, while each cucumber vine yielded about 15–20 pounds. In this backyard setup, just 4 tomato plants 
+                and 4 cucumber plants produced a combined harvest of 100–140 pounds of fresh vegetables during the season. This 
+                amount can supplement the vegetable needs of a small family of 2–4 people, providing enough tomatoes and cucumbers 
+                for fresh salads, cooking, and preserving. Compared to a traditional backyard soil garden, the DWC system used water 
+                more efficiently, required less weeding, and delivered consistent harvests with fewer pest issues.</ul>
+            <ul>The backyard DWC system demonstrated that with minimal space and proper setup, a home grower can produce a significant 
+                supply of fresh vegetables to support household nutrition. The system’s higher yields per plant and multiple harvests 
+                make it a great alternative to traditional gardening, especially in urban or suburban areas where soil quality, space, 
+                or water supply may be limited. Small-scale hydroponic projects like this can contribute meaningfully to local food security 
+                by providing a stable source of nutritious produce close to where people live. By reducing dependence on supply chains and 
+                minimizing food miles, such systems help communities build resilience against supply disruptions, rising food costs, or 
+                seasonal shortages.</ul>
+        </div>
+    
+    </section>
+
+        <!-- <div class="needsItems">
             <div class="column">
                 <div class="card" style="width: 20rem">
 
@@ -185,82 +351,8 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
-    </section>
-
-    <section id="materialsList">
-        <h1> Materials List </h1>
-
-        <table>
-            <tr>
-                <th>Purchased Material</th>
-                <th>Cost</th>
-                <th>Homemade Alternative</th>
-                <th>Approximate Cost</th>
-            </tr>
-            <tr>
-                <td>Deep Water Culture System 
-                    <li>(8) 5 Gallon Buckets</li>
-                    <li>Water Resevoire</li>
-                    <li>Water Circulation Pipes</li>
-                </td>
-                <td>$250.00</td>
-                <td>
-                    <ul>(8) 5 Gallon Buckets</ul>
-                    <ul>Water Resevoire</ul>
-                    <ul>Water Circulation Pipes</ul>
-                </td>
-                <td>$250.00</td>
-            </tr>
-            <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-            </tr>
-            <tr>
-                <td>Ernst Handel</td>
-                <td>Roland Mendel</td>
-                <td>Austria</td>
-            </tr>
-            <tr>
-                <td>Island Trading</td>
-                <td>Helen Bennett</td>
-                <td>UK</td>
-            </tr>
-            <tr>
-                <td>Laughing Bacchus Winecellars</td>
-                <td>Yoshi Tannamuri</td>
-                <td>Canada</td>
-            </tr>
-            <tr>
-                <td>Magazzini Alimentari Riuniti</td>
-                <td>Giovanni Rovelli</td>
-                <td>Italy</td>
-            </tr>
-        </table>
-
-    </section>
-
-    <section id="design">
-        <h1> 2D/3D Design </h1>
-        <img class="fullscreen-image" src="drawings [Converted].jpg" alt="Full Screen Example">
-    </section>
-
-    <section id="projectAnalysis">
-        <h1> Project Analysis </h1>
-    </section>
-
-    <section id="visuals">
-        <h1> Visuals </h1>
-    </section>
-
-    <section id="challengesSolutions">
-        <h1> Challenges & Solutions </h1>
-    </section>
-
-    <section id="resultsConclusion">
-        <h1> Results & Conclusion </h1>
     </section>
 
     <section id="aboutMe">

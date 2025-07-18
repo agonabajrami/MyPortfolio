@@ -9,6 +9,10 @@ h2 {
     font-size: 25px;
 }
 
+h3 {
+    font-size: ;
+}
+
 h4 {
     font-size: 25px;
 }
@@ -62,6 +66,10 @@ header {
   margin: 0;              
 }
 
+.sub-title{
+    color:#fff;
+}
+
 .projectsGallery {
   display: flex;           
   flex-direction: row;     
@@ -105,13 +113,13 @@ header {
     padding-left: 25px;
 }
 
-.needsItems {
+/* .needsItems {
     display: flex; 
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
     column-gap: 15px;
-}
+} */
 
 .fullscreen-image {
     width: 90%;
@@ -122,23 +130,125 @@ header {
     padding-bottom: 25px;
 }
 
-table {
-  border-collapse: collapse;
+#Case1 {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#Case1 h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #b8337e;
+}
+
+#Case1 h3 {
+  font-size: 1.6rem;
+  color: #b8337e;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #b8337e;
+  padding-bottom: 5px;
+}
+
+#Case1 p {
+  margin-bottom: 20px;
+}
+
+#Case1 ul {
+  margin: 0 0 20px 20px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+#Case1 .oneProjectOverview,
+#Case1 .oneNeedsAssessment,
+#Case1 .oneProjectAnalysis,
+#Case1 .oneChallengesSolutions,
+#Case1 .oneResultsConclusion {
+  background: #fafafa;
+  border-left: 6px solid #b8337e;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  transition: box-shadow 0.3s ease;
+}
+
+#Case1 .oneProjectOverview:hover,
+#Case1 .oneNeedsAssessment:hover,
+#Case1 .oneProjectAnalysis:hover,
+#Case1 .oneChallengesSolutions:hover,
+#Case1 .oneResultsConclusion:hover {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+#Case2 {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#Case2 h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2b472d;
+}
+
+#Case2 h3 {
+  font-size: 1.6rem;
+  color: #2b472d;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2b472d;
+  padding-bottom: 5px;
+}
+
+#Case2 p {
+  margin-bottom: 20px;
+}
+
+#Case2 ul {
+  margin: 0 0 20px 20px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+#Case2 img.fullscreen-image {
   width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
 }
 
-td, th {
-  border: 1px solid #d5d5d5;
-  text-align: left;
-  padding: 8px;
+/* Each block styled as a card */
+#Case2 .twoProjectOverview,
+#Case2 .twoNeedsAssessment,
+#Case2 .twoMaterialsList,
+#Case2 .twoDesign,
+#Case2 .twoProjectAnalysis,
+#Case2 .twoChallengesSolutions,
+#Case2 .twoResultsConclusion {
+  background: #fafafa;
+  border-left: 6px solid #2b472d;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  transition: box-shadow 0.3s ease;
 }
 
-th {
-    background-color: #d5d5d5;
+#Case2 .twoProjectOverview:hover,
+#Case2 .twoNeedsAssessment:hover,
+#Case2 .twoMaterialsList:hover,
+#Case2 .twoDesign:hover,
+#Case2 .twoProjectAnalysis:hover,
+#Case2 .twoChallengesSolutions:hover,
+#Case2 .twoResultsConclusion:hover {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
 }
-
-tr:nth-child(even) {
-  background-color: #ffffff;
-}
-
 
